@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box] ;
+node [fontname="SimHei"]
+0 [label="是否周末 <= 0.0\nentropy = 0.998\nsamples = 34\nvalue = [16, 18]"] ;
+1 [label="是否促销 <= 0.0\nentropy = 0.934\nsamples = 20\nvalue = [13, 7]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="天气 <= 0.0\nentropy = 0.544\nsamples = 8\nvalue = [7, 1]"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 4\nvalue = [4, 0]"] ;
+2 -> 3 ;
+4 [label="entropy = 0.811\nsamples = 4\nvalue = [3, 1]"] ;
+2 -> 4 ;
+5 [label="天气 <= 0.0\nentropy = 1.0\nsamples = 12\nvalue = [6, 6]"] ;
+1 -> 5 ;
+6 [label="entropy = 0.971\nsamples = 5\nvalue = [3, 2]"] ;
+5 -> 6 ;
+7 [label="entropy = 0.985\nsamples = 7\nvalue = [3, 4]"] ;
+5 -> 7 ;
+8 [label="天气 <= 0.0\nentropy = 0.75\nsamples = 14\nvalue = [3, 11]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="是否促销 <= 0.0\nentropy = 0.954\nsamples = 8\nvalue = [3, 5]"] ;
+8 -> 9 ;
+10 [label="entropy = 0.918\nsamples = 3\nvalue = [2, 1]"] ;
+9 -> 10 ;
+11 [label="entropy = 0.722\nsamples = 5\nvalue = [1, 4]"] ;
+9 -> 11 ;
+12 [label="entropy = 0.0\nsamples = 6\nvalue = [0, 6]"] ;
+8 -> 12 ;
+}
