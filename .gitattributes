@@ -1,1 +1,2 @@
 *.sql filter=lfs diff=lfs merge=lfs -text
+data.sql filter=lfs diff=lfs merge=lfs -text
