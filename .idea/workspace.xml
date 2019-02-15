@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95dfb2f-9aab-4937-b59a-4c8a7d357f6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据挖掘建模.py">
+        <entry file="file://$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据挖掘建模.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="408" column="38" lean-forward="true" selection-end-line="433" />
-              <folding>
-                <element signature="e#23#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="34" column="22" selection-end-line="51" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -89,13 +85,15 @@
         <option value="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据探索.py" />
         <option value="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/GM11.py" />
         <option value="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据挖掘建模.py" />
+        <option value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据探索.py" />
+        <option value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据挖掘建模.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="977" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -105,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,19 +119,13 @@
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
               <item name="实战项目" type="462c0819:PsiDirectoryNode" />
-              <item name="财政收入影响因素分析及预测模型" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
-              <item name="实战项目" type="462c0819:PsiDirectoryNode" />
-              <item name="财政收入影响因素分析及预测模型" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="基于基站定位数据的商圈分析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,11 +136,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Python workspace\PycharmProjects\DataMining\实战项目\基于基站定位数据的商圈分析\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\DataMining\实战项目\财政收入影响因素分析及预测模型" />
       <recent name="D:\Work\Python workspace\PycharmProjects\DataMining\实战项目\财政收入影响因素分析及预测模型\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\DataMining\实战项目\电子商务网站用户行为分析及服务推荐\data" />
       <recent name="D:\Work\Python workspace\PycharmProjects\DataMining\实战项目\应用系统负载分析与磁盘容量预测\data" />
-      <recent name="D:\Work\Python workspace\PycharmProjects\DataMining\实战项目\家用电器用户行为分析与事件识别\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,11 +155,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.数据挖掘建模 (1)">
+  <component name="RunManager" selected="Python.数据挖掘建模 (2)">
     <configuration name="数据挖掘建模 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -176,6 +170,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据挖掘建模.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据挖掘建模 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据挖掘建模.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,6 +211,63 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/家用电器用户行为分析与事件识别/数据挖掘建模.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据探索" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据探索.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据预处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测/数据预处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="建模" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测/建模.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,44 +431,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="数据预处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测/数据预处理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="建模" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测/建模.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -445,8 +477,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.数据挖掘建模 (1)" />
+        <item itemvalue="Python.数据挖掘建模 (2)" />
         <item itemvalue="Python.数据探索" />
+        <item itemvalue="Python.数据挖掘建模 (1)" />
         <item itemvalue="Python.数据挖掘建模" />
         <item itemvalue="Python.maogai" />
       </list>
@@ -480,18 +513,19 @@
       <workItem from="1549874835689" duration="9796000" />
       <workItem from="1550037182814" duration="1192000" />
       <workItem from="1550048504970" duration="1065000" />
-      <workItem from="1550116922174" duration="9139000" />
+      <workItem from="1550116922174" duration="10269000" />
+      <workItem from="1550203962847" duration="1859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65462000" />
+    <option name="totallyTimeSpent" value="68451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.32093024" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3255814" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.28903654" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -506,13 +540,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.30564785" side_tool="true" weight="0.47265077" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49966776" weight="0.33520338" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.69435215" visible="true" weight="0.085553996" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.69435215" visible="true" weight="0.4502104" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8911043" visible="true" weight="0.28372094" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8877551" visible="true" weight="0.24784054" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.8778468" weight="0.32956812" />
-      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.108895704" side_tool="true" visible="true" weight="0.28372094" />
+      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.1122449" side_tool="true" visible="true" weight="0.24784054" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,16 +830,6 @@
     <entry file="file://$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/data4.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据探索.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/data-analysis/Lib/site-packages/sklearn/linear_model/coordinate_descent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2401">
@@ -829,11 +853,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据挖掘建模.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="408" column="38" lean-forward="true" selection-end-line="433" />
+        <state relative-caret-position="75">
+          <caret line="396" column="7" lean-forward="true" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
           <folding>
             <element signature="e#23#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据探索.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据探索.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据挖掘建模.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="34" column="22" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
