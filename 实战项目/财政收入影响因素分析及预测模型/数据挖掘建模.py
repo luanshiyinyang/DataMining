@@ -11,7 +11,7 @@ def adaptiveLasso():
     '''
     inputfile = 'data/data1.csv'
     data = pd.read_csv(inputfile)
-    # 导入AdaptiveLasso算法，要在较新的Scikit-Learn才有。
+    # 导入AdaptiveLasso算法，要在较新的Scikit-Learn才有
     from sklearn.linear_model import LassoLars
     model = LassoLars()
     model.fit(data.iloc[:, 0:13], data['y'])
@@ -26,7 +26,7 @@ def huise():
     inputfile = 'data/data1.csv'
     outputfile = 'data/data1_GM11.xls'
     data = pd.read_csv(inputfile)
-    data.index = range(1994, 2014)
+    data.index = np.arange(1994, 2014)
 
     data.loc[2014] = None
     data.loc[2015] = None
@@ -54,7 +54,7 @@ def yuce():
     data = pd.read_excel(inputfile)
     feature = ['x1', 'x2', 'x3', 'x4', 'x5', 'x7']  # 特征所在列
 
-    data_train = data.loc[range(1994, 2014)].copy()  # 取2014年前的数据建模
+    data_train = data.loc[np.arange(1994, 2014)-1994].copy()  # 取2014年前的数据建模
     data_mean = data_train.mean()
     data_std = data_train.std()
     data_train = (data_train - data_mean) / data_std  # 数据标准化
@@ -91,8 +91,8 @@ def adaptiveLasso2():
     inputfile = 'data/data2.csv'  # 输入的数据文件
     data = pd.read_csv(inputfile)  # 读取数据
     # 导入AdaptiveLasso算法，新版本已经删除
-    from sklearn.linear_model import AdaptiveLasso
-    model = AdaptiveLasso(gamma=1)
+    from sklearn.linear_model import LassoCV
+    model = LassoCV()
     model.fit(data.iloc[:, 0:6], data['y'])
     model.coef_  # 各个特征的系数
 
@@ -130,7 +130,7 @@ def yuce2():
     data = pd.read_excel(inputfile)  # 读取数据
     feature = ['x1', 'x3', 'x5']  # 特征所在列
 
-    data_train = data.loc[np.arange(1999, 2014)].copy()  # 取2014年前的数据建模
+    data_train = data.loc[np.arange(1999, 2014)-1999].copy()  # 取2014年前的数据建模
     data_mean = data_train.mean()
     data_std = data_train.std()
     data_train = (data_train - data_mean) / data_std  # 数据标准化
@@ -169,8 +169,8 @@ def adaptiveLasso3():
     data = pd.read_csv(inputfile)  # 读取数据
 
     # 导入AdaptiveLasso算法，要在较新的Scikit-Learn才有。
-    from sklearn.linear_model import AdaptiveLasso
-    model = AdaptiveLasso(gamma=1)
+    from sklearn.linear_model import LassoCV
+    model = LassoCV()
     model.fit(data.iloc[:, 0:10], data['y'])
     model.coef_  # 各个特征的系数
 
@@ -209,7 +209,7 @@ def yuce3():
     data = pd.read_excel(inputfile)  # 读取数据
     feature = ['x3', 'x4', 'x6', 'x8']  # 特征所在列
 
-    data_train = data.loc[range(1999, 2014)].copy()  # 取2014年前的数据建模
+    data_train = data.loc[np.arange(1999, 2014)-1999].copy()  # 取2014年前的数据建模
     data_mean = data_train.mean()
     data_std = data_train.std()
     data_train = (data_train - data_mean) / data_std  # 数据标准化
@@ -247,8 +247,8 @@ def adaptiveLasso4():
     data = pd.read_csv(inputfile)  # 读取数据
 
     # 导入AdaptiveLasso算法，要在较新的Scikit-Learn才有。
-    from sklearn.linear_model import AdaptiveLasso
-    model = AdaptiveLasso(gamma=1)
+    from sklearn.linear_model import LassoCV
+    model = LassoCV()
     model.fit(data.iloc[:, 0:10], data['y'])
     model.coef_  # 各个特征的系数
 
@@ -286,7 +286,7 @@ def yuce4():
     data = pd.read_excel(inputfile)  # 读取数据
     feature = ['x1', 'x2', 'x3', 'x4', 'x6', 'x7', 'x9', 'x10']  # 特征所在列
 
-    data_train = data.loc[range(2002, 2014)].copy()  # 取2014年前的数据建模
+    data_train = data.loc[np.arange(2002, 2014)-2002].copy()  # 取2014年前的数据建模
     data_mean = data_train.mean()
     data_std = data_train.std()
     data_train = (data_train - data_mean) / data_std  # 数据标准化
@@ -324,8 +324,8 @@ def adaptiveLasso5():
     data = pd.read_csv(inputfile)  # 读取数据
 
     # 导入AdaptiveLasso算法，要在较新的Scikit-Learn才有。
-    from sklearn.linear_model import AdaptiveLasso
-    model = AdaptiveLasso(gamma=1)
+    from sklearn.linear_model import LassoCV
+    model = LassoCV()
     model.fit(data.iloc[:, 0:7], data['y'])
     model.coef_  # 各个特征的系数
 
@@ -364,7 +364,7 @@ def yuce5():
     data = pd.read_excel(inputfile)  # 读取数据
     feature = ['x1', 'x4', 'x5', 'x7']  # 特征所在列
 
-    data_train = data.loc[range(2000, 2014)].copy()  # 取2014年前的数据建模
+    data_train = data.loc[np.arange(2000, 2014)-2000].copy()  # 取2014年前的数据建模
     data_mean = data_train.mean()
     data_std = data_train.std()
     data_train = (data_train - data_mean) / data_std  # 数据标准化
@@ -427,7 +427,7 @@ if __name__ == '__main__':
     # adaptiveLasso4()
     # huise4()
     # yuce4()
-    # adaptiveLasso5()
-    # huise5()
-    # yuce5()
+    adaptiveLasso5()
+    huise5()
+    yuce5()
     huise6()
