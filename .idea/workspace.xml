@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95dfb2f-9aab-4937-b59a-4c8a7d357f6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DataMining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataMining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/1-net.model" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/1-net.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/2-net.model" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/2-net.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/3-net.model" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/3-net.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/4-net.model" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/4-net.model" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/VAT.xls" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/VAT.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/data2_GM11.xls" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/data2_GM11.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/enterprise_income.xls" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/enterprise_income.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/revenue.xls" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/revenue.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/sales_tax.xls" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/data/sales_tax.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据挖掘建模.py" beforeDir="false" afterPath="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型/数据挖掘建模.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +31,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/实战项目/电力窃电漏电用户自动识别/cm_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,9 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="949" />
+    <option name="width" value="979" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -114,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,11 +119,21 @@
               <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataMining" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
+              <item name="实战项目" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataMining" type="462c0819:PsiDirectoryNode" />
+              <item name="实战项目" type="462c0819:PsiDirectoryNode" />
+              <item name="电力窃电漏电用户自动识别" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +169,9 @@
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/财政收入影响因素分析及预测模型" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -212,63 +223,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/电商产品评论数据情感分析/数据预处理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="数据预处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/电子商务网站用户行为分析及服务推荐" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/电子商务网站用户行为分析及服务推荐/数据预处理.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="数据探索" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测/数据探索.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="数据探索" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataMining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据探索.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,6 +424,63 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="数据预处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/电子商务网站用户行为分析及服务推荐" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/电子商务网站用户行为分析及服务推荐/数据预处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据探索" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/应用系统负载分析与磁盘容量预测/数据探索.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据探索" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataMining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/实战项目/基于基站定位数据的商圈分析/数据探索.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="DataMining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -533,16 +544,19 @@
       <workItem from="1550210934786" duration="4885000" />
       <workItem from="1550229162482" duration="4000" />
       <workItem from="1554733389081" duration="1645000" />
+      <workItem from="1555661036571" duration="6000" />
+      <workItem from="1556196438870" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77361000" />
+    <option name="totallyTimeSpent" value="77402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.33953488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3488372" />
       <window_info id="Structure" order="1" sideWeight="0.50224215" side_tool="true" weight="0.28903654" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -561,9 +575,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.8812665" visible="true" weight="0.17009966" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.87598944" visible="true" weight="0.16943522" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.8778468" weight="0.32956812" />
-      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.11873351" side_tool="true" visible="true" weight="0.17009966" />
+      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="5" sideWeight="0.124010555" side_tool="true" visible="true" weight="0.16943522" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,13 +602,6 @@
           <folding>
             <element signature="e#47#66#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/实战项目/电力窃电漏电用户自动识别/cm_plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -889,6 +896,13 @@
           <folding>
             <element signature="e#23#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实战项目/电力窃电漏电用户自动识别/cm_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
